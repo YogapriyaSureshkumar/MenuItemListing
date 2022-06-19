@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: menuitem
-        image: menuitem:latest
+        image: docker pull menuitemlistingacr.azurecr.io/menuitemlistingrepo:latest
         ports:
         - containerPort: 8080
       imagePullSecrets:
